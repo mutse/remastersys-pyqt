@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/remastersys-large.png</file>
+        <file>images/remastersys.png</file>
+        <file>images/main.png</file>
+    </qresource>
+</RCC>
