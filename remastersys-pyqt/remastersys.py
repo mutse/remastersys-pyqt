@@ -142,6 +142,17 @@ class Remastersys(QMainWindow, Ui_Remastersys):
 
 if  __name__ == "__main__":
     app = QApplication(sys.argv)
+    translator = QTranslator()
+    translator.load("./i18n/remastersys-qt_" + QLocale.system().name())
+    app.installTranslator(translator)
+
+    transQt = QTranslator()
+    qtTrPath = QLibraryInfo.location(QLibraryInfo.TranslationsPath)
+    qtTrFile = "qt_" + QLocale.system().name()
+    transQt.load(qtTrFile, qtTrPath)
+    app.installTranslator(transQt)
+    app.setProperty("qtc_locale", QLocale.system().name())
+
     win = Remastersys()
     win.setWindowIcon(QIcon(QPixmap(":/images/remastersys.png")))
     win.show()

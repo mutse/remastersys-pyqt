@@ -6,12 +6,14 @@ SOURCES +=  \
     configdialog.py \
     plymouth.py \
     usersetting.py \
-	ui_remastersys.py \
-    ui_aboutdialog.py \
-    ui_configdialog.py \
-    ui_plymouth.py \
-    ui_usersetting.py \
-    remastersys_rc.py
+	remastersys_rc.py
+
+FORMS = \	
+	ui/remastersys.ui \
+    ui/aboutdialog.ui \
+    ui/configdialog.ui \
+    ui/plymouth.ui \
+    ui/usersetting.ui
 
 TRANSLATIONS += \
     i18n/remastersys-qt_zh_CN.ts \

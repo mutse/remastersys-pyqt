@@ -132,7 +132,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;a href=&quot;https://github.com/mutse/remastersys-qt&quot;&gt;Homepage&lt;/a&gt;</string>
+    <string>&lt;a href=&quot;https://github.com/mutse/remastersys-pyqt&quot;&gt;Homepage&lt;/a&gt;</string>
    </property>
    <property name="openExternalLinks">
     <bool>true</bool>
