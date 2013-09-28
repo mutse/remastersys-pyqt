@@ -18,7 +18,7 @@ class UserSetting(QDialog, Ui_UserSetting):
         self.setupUi(self)
 
         self.process = QProcess()
-        self.process.start("sh ./list_user.sh")
+        self.process.start("python list_user.py")
         self.process.readyReadStandardOutput.connect(self.readFromStdout)
 
         self.selectBtn.clicked.connect(self.slotSelect)
