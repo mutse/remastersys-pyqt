@@ -3,7 +3,7 @@
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
-from ui_aboutdialog import Ui_AboutDialog
+from ui.ui_aboutdialog import Ui_AboutDialog
 import sys
 
 class AboutDialog(QDialog, Ui_AboutDialog):

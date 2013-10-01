@@ -3,7 +3,7 @@
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
-from ui_plymouth import Ui_Plymouth
+from ui.ui_plymouth import Ui_Plymouth
 import os
 import sys
 

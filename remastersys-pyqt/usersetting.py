@@ -3,7 +3,7 @@
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
-from ui_usersetting import Ui_UserSetting
+from ui.ui_usersetting import Ui_UserSetting
 import os
 import sys
 

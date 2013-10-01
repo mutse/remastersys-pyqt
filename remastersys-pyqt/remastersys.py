@@ -9,7 +9,7 @@ from PyQt4.QtGui import *
 from PyQt4.QtCore import *
 
 from aboutdialog import AboutDialog
-from ui_remastersys import Ui_Remastersys
+from ui.ui_remastersys import Ui_Remastersys
 from configdialog import ConfigDialog
 from plymouth import Plymouth
 from usersetting import UserSetting

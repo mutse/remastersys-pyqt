@@ -3,7 +3,7 @@
 
 from PyQt4.QtGui import *
 from PyQt4.QtCore import *
-from ui_configdialog import Ui_ConfigDialog
+from ui.ui_configdialog import Ui_ConfigDialog
 import sys
 
 class ConfigDialog(QDialog, Ui_ConfigDialog):
