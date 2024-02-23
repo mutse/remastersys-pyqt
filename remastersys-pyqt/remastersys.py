@@ -26,8 +26,8 @@ class Remastersys(QMainWindow, Ui_Remastersys):
         self.initUi()
 
         desktop = QDesktopWidget()
-        w = desktop.screenGeometry().width();
-        h = desktop.screenGeometry().height();
+        w = desktop.screenGeometry().width()
+        h = desktop.screenGeometry().height()
 
         self.move((w - self.width()) / 2, (h - self.height()) / 2)
 
